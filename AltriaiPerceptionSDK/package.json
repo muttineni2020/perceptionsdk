@@ -1,0 +1,21 @@
+{
+  "name": "cordova-plugin-AltriaIperceptionSDK",
+  "version": "0.0.1",
+  "description": "iPerception survey handling",
+  "cordova": {
+    "id": "cordova-plugin-AltriaIperceptionSDK",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "NA"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "nani",
+  "license": "ISC"
+}

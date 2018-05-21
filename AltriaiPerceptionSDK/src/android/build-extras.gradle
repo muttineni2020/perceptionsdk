@@ -1,0 +1,22 @@
+repositories {    
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+// dependencies {
+//     compile(name:'iperceptionssdk', ext:'aar')
+// }
+
+dependencies {
+    compile(name: ‘iperceptionssdk’, ext: ‘aar’)
+    compile fileTree(dir: ‘libs’, include: [‘*.jar’])
+    compile ‘com.android.support:appcompat-v7:22.0.0’
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+}
